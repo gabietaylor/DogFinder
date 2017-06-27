@@ -1,0 +1,11 @@
+body {
+	background: url(https://blogs-images.forbes.com/kristintablang/files/2016/02/Uber-Puppies-Event.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+}
+
+h1, h2 {
+	color: black;
+}
