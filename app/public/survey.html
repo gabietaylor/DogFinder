@@ -36,7 +36,7 @@
                     </div> <!--row-->
                     </div> <!--cont.-->
                     <!--Question 1-->
-                    <div class = "container" style = "overflow-y: scroll; height: 400px;">
+                    <div class = "container" style = "overflow-y: scroll; height: 450px;">
                         <div class = "row">
                             <div class = "col-md-12">
                                 <h3>Question 1</h3>
@@ -167,30 +167,28 @@
                         </div>
                         <!--Button-->
                         <div class = "col-md-12">
-                            <input type="submit" class="btn btn-success"></input>
+                            <input type="submit" class="btn btn-success" id="buttonSbmt"></input>
                         </div>
                     </div>
                 </form>
                 <!--Footer-->
                 <footer class="footer">
                     <div class="container">
-                        <p><a href="api/friends">API Friends List</a> | <a href="https://github.com/gabietaylor/DogFinder">GitHub Repo for DogFinder</a></p>
+                        <p><a href="api/dogs">API Dogs List</a> | <a href="https://github.com/gabietaylor/DogFinder">GitHub Repo for DogFinder</a></p>
                     </div>
                 </footer>
                 <!-- Modal Decided to use a modal for easy pop out -->
-                <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal fade" id="dogModal" role="dialog">
                     <div class="modal-dialog">
                         <!-- Modal content-->
                         <div class="modal-content">
                         </div>
                         <h4 class="modal-title">You Loyal Dog Awaits: Adopt Don't Shop:</h4>
-                        <div class="modal-body">
-                            <!-- Picture -->
+                        <div class="modal-body" id="dogInfo">
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End Modal -->
         </body>
     </html>
 </div>
