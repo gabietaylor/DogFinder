@@ -42,7 +42,7 @@
            console.log(data.name);
            console.log(data.photo);
            // pushes info from modal
-           $("#dogInfo").html("<h3>" + data.name + "</h3> <br> <img src=" + data.photo + "style='width:450px;'</img>");
+           $("#dogInfo").html("<h3>" + data.name + "</h3> <br> <img src=" + data.photo + "</img>");
        })
            $('#dogModal').modal("show");
 
