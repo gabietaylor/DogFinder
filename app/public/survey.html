@@ -13,7 +13,6 @@
         <!--Latest compiled and minified JavaScript-->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <script type="text/javascript" src="app.js"></script>
     </head>
     <body class="text-center">
         <div class="container">
@@ -180,17 +179,23 @@
                     </div>
                 </footer>
                 <!-- Modal Decided to use a modal for easy pop out -->
-                <div id="myModal" class="modal" id="dogInfo">
-                    <!-- Modal content -->
-                    <div class="modal-content" id="dogModal">
-                        <span class="close">&times;</span>
-                        <p>You Loyal Dog Awaits: Adopt Don't Shop:</p>
+                <div class="modal fade" id="dogModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content" id="dogInfo">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title">You Loyal Dog Awaits: Adopt Don't Shop:</h4>
+                            </div>
+                            <div class="modal-body">
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" data-dismiss="modal" class="btn">Close</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="app.js"></script>
     </body>
-</html>
-</div>
-</body>
 </html>

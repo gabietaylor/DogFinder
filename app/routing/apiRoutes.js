@@ -16,7 +16,7 @@ module.exports = function(app) {
         console.log('req.body.scores.length: ' + req.body.scores.length);
 
         var results = {};
-        var diffMaker = 10;
+        var diffMaker = 100;
         // loop through the object
         for (var i = 0; i < dogs.length; i++) {
             var diffArray = [];

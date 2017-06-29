@@ -33,14 +33,18 @@
        };
        console.log(answerHolder);
 
+    //post user object to dog API
+       var currentURL = window.location.origin;
+      console.log('userObject')
+
        // push the dog info out after submit
        $.post("/api/dogs", answerHolder, function(data) {
            console.log(data.name);
            console.log(data.photo);
            // pushes info from modal
-           $("#dogInfo").html("<h3>" + data.name + "</h3> <br> <img src=" + data.photo + " style='width:450px;'</img>");
-           $('#dogModal').modal("show")
+           $("#dogInfo").html("<h3>" + data.name + "</h3> <br> <img src=" + data.photo + "style='width:450px;'</img>");
        })
+           $('#dogModal').modal("show");
 
        // empties inputs
        $('#name').val('');

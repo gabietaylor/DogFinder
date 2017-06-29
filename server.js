@@ -14,9 +14,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
+// parse everything we need for the html
+app.use(express.static("./app/public"));
+
 app.use(bodyParser.text());
 app.use(bodyParser.json({
-    type: 'application/vnd.api+json'
+    type: 'application/vnd.api.json'
 }));
 
 // the main client pages
