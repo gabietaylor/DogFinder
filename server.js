@@ -9,17 +9,21 @@ var path = require('path');
 var PORT = process.env.PORT || 3000;
 var app = express();
 
+// function to parse to JSON
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 app.use(bodyParser.text());
-app.use(bodyParser.json({type: 'application/vnd.api+json'}));
+app.use(bodyParser.json({
+    type: 'application/vnd.api+json'
+}));
 
-app.use(express.static('app/public'));
-
+// the main client pages
 require('./app/routing/htmlRoutes.js')(app);
-// require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
 
-app.listen(PORT, function(){
-
-	console.log('Server Listening on %d', PORT)
+// listening
+app.listen(PORT, function() {
+    console.log('Server Listening on %d', PORT)
 });
