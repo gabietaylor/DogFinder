@@ -1,17 +1,19 @@
 body {
-	background: url(https://blogs-images.forbes.com/kristintablang/files/2016/02/Uber-Puppies-Event.jpg);
+	background-color: black;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-color: black;
+    text-shadow: 2px 2px #996633;
+	color: white;
 }
 
 h1, h2 {
-	text-shadow: 2px 2px #ffffff;
-	color: black;
+	text-shadow: 2px 2px #996633;
+	color: white;
 }
 
 h3 {
-	text-shadow: 2px 2px #ffffff;
-	color: #996633;
+	text-shadow: 2px 2px #996633;
+	color: white;
 }
