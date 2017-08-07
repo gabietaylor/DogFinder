@@ -5,9 +5,7 @@ In this activity, I built a compatibility-based "FriendFinder" application -- ba
 This was also deployed in Heroku.
 
 ### Click on pics for link to page!!
-# About
-[![Alt text](app/data/images/about.png)](https://gabietaylor.github.io/Basic-Portfolio/index.html)
-# Portfolio
-[![Alt text](app/data/images/portfolio.png)](https://gabietaylor.github.io/Basic-Portfolio/portfolio.html)
-# Contact
-[![Alt text](app/data/images/contact.png)](https://gabietaylor.github.io/Basic-Portfolio/contact.html)
+# Main
+[![Alt text](app/data/images/main.png)](https://rocky-garden-54875.herokuapp.com/)
+# Survey
+[![Alt text](app/data/images/survey.png)](https://rocky-garden-54875.herokuapp.com/survey)
